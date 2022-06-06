@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: the first value is the number of a document; the second is the index of a
+    term in that document; the third is TF-IDF.
+- text: the first value is the number of a document; the second is the index of a
+    term in the vocabulary; the third is TF-IDF.
+- text: the first value is the index of a term in the vocabulary; the second is the
+    number of a document; the third is TF-IDF.
+- text: the first value is TF; the second is IDF; the third is TF-IDF.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12913#comment
+status: Solved
+record: -1
